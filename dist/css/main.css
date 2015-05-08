@@ -1,0 +1,35 @@
+/* Variables */
+/*SHOULD BE TRANSPARENT WHITE*/
+/* B R E A K P O I N T S */
+@media (min-width: 478px) {
+  .slogan {
+    font-size: 25px; } }
+@media (min-width: 767px) {
+  .slogan {
+    font-size: 35px; } }
+@media (min-width: 978px) {
+  .body {
+    font-size: 150%; }
+
+  .plan1, .plan2, .plan3, .company-info-background {
+    float: left;
+    max-width: 200px; }
+
+  .clear {
+    float: clear; } }
+@media (min-width: 979px) {
+  .plan1, .plan2, .plan3, .company-info-background {
+    max-width: 2000px; } }
+.header-main-box {
+  width: 100%; }
+
+.header-style {
+  display: inline-block;
+  background-image: url("images/background.jpg");
+  float: left; }
+
+.slogan {
+  background-image: url("images/background.jpg");
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */

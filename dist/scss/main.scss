@@ -1,0 +1,106 @@
+/* Variables */
+$body-background: white;
+$header-link-1: gray;
+$header-link-2and4: red;
+$header-link-3: black;
+$header-background: url("images/background.jpg");
+$plan-background-1: green;
+$plan-background-2: blue;
+$plan-background-3: black;
+$plan-title: white;
+$plan-price: white;
+$plan-subtitle: white; /*SHOULD BE TRANSPARENT WHITE*/
+$plan-perks-background: gray;
+$plan-perks-text: black;
+$plan-perks-border: yellow;
+$plan-button-parent-background: white;
+$plan-button-background: white;
+$plan-button-text: black;
+$company-info-background: white;
+$company-info-title: black;
+$company-info-verbage: black;
+$footer-background: black;
+$footer-text: gray;
+$footer-links: white;
+
+/* B R E A K P O I N T S */ 
+
+@media (min-width: 478px) {
+	.body {
+		
+	}
+    .slogan {
+        font-size: 25px;
+
+    }
+}
+
+@media (min-width: 767px) {
+	.slogan {
+		font-size: 35px;
+	}
+}
+
+@media (min-width: 978px) {
+	.body {
+		font-size: 150%;
+	}
+	.plan1, .plan2, .plan3, .company-info-background {
+		float: left;
+		max-width: 200px;
+	}
+	.clear {
+		float:clear
+	}
+	
+	
+
+}
+
+@media (min-width: 979px) {
+	.plan1, .plan2, .plan3, .company-info-background {
+		
+		max-width: 2000px;
+	}
+}
+
+.body {}
+.header-main-box {
+	width: 100%
+}
+.header-style {
+	display:inline-block;
+	background-image: $header-background;
+	float:left;
+
+}
+.header-link-1 {}
+.header-link-2and4 {}
+.header-link-3 {}
+.slogan {
+	background-image: url("images/background.jpg");
+	display: block;
+}
+.plans {}
+.plan{}
+.plan-header-1{}
+.plan-header-2{}
+.plan-header-3{}
+.plan-title{}
+.plan-price{}
+.plan-subtitle{}
+.plan-perks{}
+.button-parent{}
+.button{}
+.company-info{}
+.company-info-background{}
+.company-info-title{}
+.company-info-verbage{}
+.footer{}
+
+
+
+
+
+
+
