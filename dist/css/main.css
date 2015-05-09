@@ -1,30 +1,32 @@
 /* Variables */
-/*SHOULD BE TRANSPARENT WHITE*/
 /* B R E A K P O I N T S */
 @media (min-width: 478px) {
   .body {
-    background: white; }
+    background: white;
+    overflow: hidden; }
 
   .slogan {
     font-size: 25px; } }
 @media (min-width: 767px) {
   .slogan {
-    font-size: 35px; } }
+    font-size: 35px;
+    float: clear; } }
 @media (min-width: 978px) {
   .body {
     font-size: 150%; }
 
   .plan1, .plan2, .plan3, .company-info-background {
-    float: left;
-    max-width: 200px; }
+    float: left; }
 
   .clear {
-    float: clear; } }
+    float: clear;
+    overflow: hidden; } }
 @media (min-width: 979px) {
   .plan1, .plan2, .plan3, .company-info-background {
-    max-width: 2000px; } }
+    max-width: 300px; } }
 .body {
-  background: white; }
+  background: white;
+  text-align: center; }
 
 .header-main-box {
   width: 100%;
@@ -33,7 +35,8 @@
 .header-style {
   display: inline-block;
   background: white;
-  float: left; }
+  float: left;
+  padding-right: 12px; }
 
 .header-link-1 {
   color: gray; }
@@ -45,42 +48,64 @@
   color: black; }
 
 .slogan {
-  background-image: url("images/background.jpg");
-  display: block;
-  color: white; }
+  background: url(background.jpg);
+  padding-bottom: 20px;
+  color: white;
+  padding-top: 20px; }
+
+.plan {
+  display: inline-block;
+  overflow: hidden;
+  margin: 5px; }
 
 .plan-header-1 {
-  background: green; }
+  background: green;
+  padding: 10px;
+  border: 1px solid black; }
 
 .plan-header-2 {
-  background: blue; }
+  background: blue;
+  padding: 10px;
+  border: 1px solid black; }
 
 .plan-header-3 {
-  background: black; }
+  background: black;
+  padding: 10px;
+  border: 1px solid black; }
 
 .plan-title {
   color: white; }
 
 .plan-price {
-  color: white; }
+  color: white;
+  font-size: 50px; }
 
 .plan-subtitle {
-  color: white; }
+  color: rgba(255, 255, 255, 0.5); }
 
 .plan-perks {
-  border: 1px solid yellow;
+  border: 1px solid black;
   background: gray;
-  color: black; }
+  color: black;
+  padding: 8px 25px 8px 25px; }
 
 .button-parent {
-  background: white; }
+  background: white;
+  border: 1px solid black; }
 
 .button {
   background: white;
-  color: black; }
+  color: black;
+  border: 1px solid black;
+  margin: 5px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2em; }
 
 .company-info {
-  background: white; }
+  background: white;
+  text-align: left; }
 
 .company-info-background {
   background: white; }
