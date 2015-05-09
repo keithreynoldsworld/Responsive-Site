@@ -14,7 +14,7 @@
     font-size: 35px; } }
 @media (min-width: 767px) {
   .body {
-    font-size: 118%; }
+    font-size: 115%; }
 
   .plan, .company-info-background {
     display: inline-block;
@@ -41,12 +41,17 @@
 @media (min-width: 979px) {
   .plan, .company-info-background {
     max-width: 400px; } }
+@media (min-width: 1200px) {
+  .body {
+    width: 1201px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 1201px, 263px; } }
 .body {
   background: white;
   text-align: center; }
 
 .header-main-box {
-  width: 100%;
   background: white; }
 
 .header-style {
