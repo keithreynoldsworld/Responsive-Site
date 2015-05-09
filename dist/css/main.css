@@ -2,6 +2,9 @@
 /*SHOULD BE TRANSPARENT WHITE*/
 /* B R E A K P O I N T S */
 @media (min-width: 478px) {
+  .body {
+    background: white; }
+
   .slogan {
     font-size: 25px; } }
 @media (min-width: 767px) {
@@ -20,16 +23,78 @@
 @media (min-width: 979px) {
   .plan1, .plan2, .plan3, .company-info-background {
     max-width: 2000px; } }
+.body {
+  background: white; }
+
 .header-main-box {
-  width: 100%; }
+  width: 100%;
+  background: white; }
 
 .header-style {
   display: inline-block;
-  background-image: url("images/background.jpg");
+  background: white;
   float: left; }
+
+.header-link-1 {
+  color: gray; }
+
+.header-link-2and4 {
+  color: red; }
+
+.header-link-3 {
+  color: black; }
 
 .slogan {
   background-image: url("images/background.jpg");
-  display: block; }
+  display: block;
+  color: white; }
+
+.plan-header-1 {
+  background: green; }
+
+.plan-header-2 {
+  background: blue; }
+
+.plan-header-3 {
+  background: black; }
+
+.plan-title {
+  color: white; }
+
+.plan-price {
+  color: white; }
+
+.plan-subtitle {
+  color: white; }
+
+.plan-perks {
+  border: 1px solid yellow;
+  background: gray;
+  color: black; }
+
+.button-parent {
+  background: white; }
+
+.button {
+  background: white;
+  color: black; }
+
+.company-info {
+  background: white; }
+
+.company-info-background {
+  background: white; }
+
+.company-info-title {
+  color: black; }
+
+.company-info-verbage {
+  color: black; }
+
+.footer {
+  color: gray;
+  background: black; }
+  .footer a {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */

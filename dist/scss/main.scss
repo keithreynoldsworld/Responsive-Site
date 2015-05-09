@@ -3,8 +3,10 @@ $body-background: white;
 $header-link-1: gray;
 $header-link-2and4: red;
 $header-link-3: black;
-$header-background: url("images/background.jpg");
+$header-background: white;
 $plan-background-1: green;
+$slogan-background: url(images/background.jpg);
+$slogan-text: white;
 $plan-background-2: blue;
 $plan-background-3: black;
 $plan-title: white;
@@ -12,7 +14,7 @@ $plan-price: white;
 $plan-subtitle: white; /*SHOULD BE TRANSPARENT WHITE*/
 $plan-perks-background: gray;
 $plan-perks-text: black;
-$plan-perks-border: yellow;
+$plan-perks-border: 1px solid yellow;
 $plan-button-parent-background: white;
 $plan-button-background: white;
 $plan-button-text: black;
@@ -27,7 +29,7 @@ $footer-links: white;
 
 @media (min-width: 478px) {
 	.body {
-		
+		background: $body-background;
 	}
     .slogan {
         font-size: 25px;
@@ -38,6 +40,7 @@ $footer-links: white;
 @media (min-width: 767px) {
 	.slogan {
 		font-size: 35px;
+
 	}
 }
 
@@ -64,39 +67,90 @@ $footer-links: white;
 	}
 }
 
-.body {}
+.body {
+	background: $body-background;
+}
 .header-main-box {
-	width: 100%
+	width: 100%;
+	background: $header-background;
 }
 .header-style {
 	display:inline-block;
-	background-image: $header-background;
+	background: $header-background;
 	float:left;
 
 }
-.header-link-1 {}
-.header-link-2and4 {}
-.header-link-3 {}
+.header-link-1 {
+	color: $header-link-1;
+}
+.header-link-2and4 { 
+	color: $header-link-2and4;}
+.header-link-3 {
+	color: $header-link-3;
+}
 .slogan {
 	background-image: url("images/background.jpg");
 	display: block;
+	color: $slogan-text;
 }
-.plans {}
+.plans {
+
+}
 .plan{}
-.plan-header-1{}
-.plan-header-2{}
-.plan-header-3{}
-.plan-title{}
-.plan-price{}
-.plan-subtitle{}
-.plan-perks{}
-.button-parent{}
-.button{}
-.company-info{}
-.company-info-background{}
-.company-info-title{}
-.company-info-verbage{}
-.footer{}
+.plan-header-1 {
+	background: $plan-background-1;
+}
+.plan-header-2 {
+	background: $plan-background-2;
+}
+.plan-header-3 {
+	background: $plan-background-3;
+}
+.plan-title {
+	color: $plan-title;
+}
+.plan-price {
+	color: $plan-price;
+}
+.plan-subtitle{
+	color: $plan-subtitle;
+}
+.plan-perks{
+	border: $plan-perks-border;
+	background: $plan-perks-background;
+	color: $plan-perks-text;
+
+
+
+}
+.button-parent{
+	background: $plan-button-parent-background;
+
+}
+.button{ 
+	background: $plan-button-background;
+	color: $plan-button-text;
+}
+.company-info{
+	background: $company-info-background;
+}
+.company-info-background{
+	background: $company-info-background;
+}
+.company-info-title{
+	color: $company-info-title;
+}
+.company-info-verbage{
+	color: $company-info-verbage;
+
+}
+.footer{
+	color: $footer-text;
+	background: $footer-background;
+	a {
+		color:$footer-links;
+	}
+}
 
 
 
