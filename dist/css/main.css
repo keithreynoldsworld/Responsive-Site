@@ -1,29 +1,46 @@
 /* Variables */
 /* B R E A K P O I N T S */
-@media (min-width: 478px) {
+@media (min-width: 0px) {
   .body {
-    background: white;
-    overflow: hidden; }
+    background: white; }
 
   .slogan {
-    font-size: 25px; } }
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(background.jpg); } }
+@media (min-width: 479px) {
+  .slogan {
+    font-size: 35px; } }
 @media (min-width: 767px) {
-  .slogan {
-    font-size: 35px;
-    float: clear; } }
-@media (min-width: 978px) {
   .body {
-    font-size: 150%; }
+    font-size: 118%; }
 
-  .plan1, .plan2, .plan3, .company-info-background {
-    float: left; }
+  .plan, .company-info-background {
+    display: inline-block;
+    width: 29%; }
+
+  .plan {
+    margin-top: 30px; }
 
   .clear {
-    float: clear;
-    overflow: hidden; } }
+    float: clear; }
+
+  .company-info-background {
+    height: 200px;
+    width: 45%;
+    float: left; }
+
+  .slogan {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 100%, 280px; }
+
+  .footer {
+    min-width: 767px; } }
 @media (min-width: 979px) {
-  .plan1, .plan2, .plan3, .company-info-background {
-    max-width: 300px; } }
+  .plan, .company-info-background {
+    max-width: 400px; } }
 .body {
   background: white;
   text-align: center; }
@@ -42,21 +59,24 @@
   color: gray; }
 
 .header-link-2and4 {
-  color: red; }
+  color: gray; }
 
 .header-link-3 {
   color: black; }
 
 .slogan {
-  background: url(background.jpg);
-  padding-bottom: 20px;
   color: white;
-  padding-top: 20px; }
+  margin-bottom: 10px; }
 
 .plan {
-  display: inline-block;
-  overflow: hidden;
-  margin: 5px; }
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 15px, 5px, 20px, 5px;
+  border: 10px, 0px, 15px, 0px; }
+
+.plan-parent {
+  margin-left: auto;
+  margin-right: auto; }
 
 .plan-header-1 {
   background: green;
@@ -91,7 +111,9 @@
 
 .button-parent {
   background: white;
-  border: 1px solid black; }
+  border: 1px solid black;
+  margin-bottom: 15px;
+  padding: 7px; }
 
 .button {
   background: white;
@@ -104,11 +126,20 @@
   border-radius: 2em; }
 
 .company-info {
+  display: inline-block;
   background: white;
-  text-align: left; }
+  text-align: left;
+  overflow: hidden;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px; }
 
 .company-info-background {
-  background: white; }
+  background: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px; }
 
 .company-info-title {
   color: black; }
@@ -117,8 +148,11 @@
   color: black; }
 
 .footer {
+  display: block;
+  float: none;
   color: gray;
-  background: black; }
+  background: black;
+  padding: 10px; }
   .footer a {
     color: white; }
 

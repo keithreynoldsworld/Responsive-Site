@@ -1,7 +1,7 @@
 /* Variables */
 $body-background: white;
 $header-link-1: gray;
-$header-link-2and4: red;
+$header-link-2and4: gray;
 $header-link-3: black;
 $header-background: white;
 $plan-background-1: green;
@@ -27,51 +27,77 @@ $footer-links: white;
 
 /* B R E A K P O I N T S */ 
 
-@media (min-width: 478px) {
+@media (min-width: 0px) {
 	.body {
 		background: $body-background;
-		overflow: hidden;
+		
+	}
+	.company-info-background{
+		
 	}
     .slogan {
         font-size: 25px;
-
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: url(background.jpg);
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 479px) {
 	.slogan {
 		font-size: 35px;
-		float: clear;
+	
 	}
 }
 
-@media (min-width: 978px) {
+@media (min-width: 767px) {
 	.body {
-		font-size: 150%;
+		font-size: 118%;
 	}
-	.plan1, .plan2, .plan3, .company-info-background {
-		float: left;
+	.plan, .company-info-background {
+		display: inline-block;
 		
+		
+		width: 29%;
+		
+	}
+	.plan{
+		
+		margin-top: 30px;
 	}
 	.clear {
 		float:clear;
-		overflow: hidden;
+
 	}
-	
-	
+	.company-info-background{
+		height: 200px;
+		width: 45%;
+		float:left;
+		
+	}
+
+	.slogan {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		background-size: 100%, 280px;
+	}
+	.footer{
+		min-width: 767px;
+	}
 
 }
 
 @media (min-width: 979px) {
-	.plan1, .plan2, .plan3, .company-info-background {
+	.plan, .company-info-background {
 		
-		max-width: 300px;
+		max-width: 400px;
 	}
 }
 
 .body {
 	background: $body-background;
 	text-align: center;
+	
 }
 .header-main-box {
 	width: 100%;
@@ -93,19 +119,25 @@ $footer-links: white;
 	color: $header-link-3;
 }
 .slogan {
-	background: url(background.jpg);
-	padding-bottom: 20px;	
+		
 	color: $slogan-text;
-	padding-top: 20px;
+	margin-bottom: 10px;
 }
 .plans {
 
 }
 .plan{
-	display:inline-block;
-	overflow: hidden;
-	margin: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: (15px, 5px, 20px, 5px);
+	border: (10px, 0px, 15px, 0px)
 }
+.plan-parent{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 .plan-header-1 {
 	background: $plan-background-1;
 	padding: 10px;
@@ -142,6 +174,8 @@ $footer-links: white;
 .button-parent{
 	background: $plan-button-parent-background;
 	border: 1px solid black;
+	margin-bottom: 15px;
+	padding: 7px;
 }
 .button{ 
 	background: $plan-button-background;
@@ -154,11 +188,20 @@ $footer-links: white;
 	border-radius: 2em;
 }
 .company-info{
+	display: inline-block;
 	background: $company-info-background;
 	text-align: left;
+	overflow: hidden;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
 }
 .company-info-background{
 	background: $company-info-background;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
 }
 .company-info-title{
 	color: $company-info-title;
@@ -168,11 +211,14 @@ $footer-links: white;
 
 }
 .footer{
+	display: block;
+	float:none;
 	color: $footer-text;
 	background: $footer-background;
 	a {
 		color:$footer-links;
 	}
+	padding: 10px;
 }
 
 
