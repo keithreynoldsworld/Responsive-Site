@@ -1,0 +1,116 @@
+/* COLOR VARIABLES */
+
+$header-top: orange;
+$header-button: red;
+$primary-background: white;
+$primary-text: black;
+$secondary-text: white;
+$primary-links: blue;
+$footer-background: gray;
+$footer-links: purple;
+$contact-background: green;
+$contact-button: blue;
+
+/* BREAKPOINTS! */
+
+@media (min-width: 0px) {
+	.body {
+		background: $body-background;
+		
+	}
+    .slogan {
+        font-size: 25px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: url(background.jpg);
+    }
+}
+
+@media (min-width: 479px) {
+
+}
+
+@media (min-width: 767px) {
+	
+}
+
+@media (min-width: 979px) {
+
+}
+
+/*the breakpoint below should are guessed, since the assignment listed them
+as all the same.*/
+
+@media (min-width: 1200px){
+	
+}
+
+@media (min-width: 1400px){
+	
+}
+
+@media (min-width: 1600px){
+	
+}
+
+
+/*CLASSES*/
+
+
+.header-top {
+
+}
+.header-button {
+
+}
+.header-text {
+
+}
+.head {
+
+}
+.logo {	
+
+}
+.logo-button {
+
+}
+.choices-nav {
+
+}
+.main-display {
+
+}
+.ties {
+
+}
+.slogan {
+
+}
+.products-parent {
+
+}
+.products {
+
+}
+.horizontal-pattern {
+
+}
+.highlights-parent {
+
+}
+.highlights {
+
+}
+.footer {
+
+}
+.bottom-nav {
+
+}
+.contact-box {
+
+}
+.contact-button {
+
+}
