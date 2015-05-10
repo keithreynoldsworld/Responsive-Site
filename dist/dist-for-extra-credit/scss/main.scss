@@ -11,6 +11,52 @@ $footer-links: purple;
 $contact-background: green;
 $contact-button: blue;
 
+/* BREAKPOINTS! */
+
+@media (min-width: 0px) {
+	.body {
+		background: $body-background;
+		
+	}
+    .slogan {
+        font-size: 25px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: url(background.jpg);
+    }
+}
+
+@media (min-width: 479px) {
+
+}
+
+@media (min-width: 767px) {
+	
+}
+
+@media (min-width: 979px) {
+
+}
+
+/*the breakpoint below should are guessed, since the assignment listed them
+as all the same.*/
+
+@media (min-width: 1200px){
+	
+}
+
+@media (min-width: 1400px){
+	
+}
+
+@media (min-width: 1600px){
+	
+}
+
+
+/*CLASSES*/
+
+
 .header-top {
 
 }
@@ -24,13 +70,23 @@ $contact-button: blue;
 
 }
 .logo {	
+
 }
 .logo-button {
+
 }
 .choices-nav {
 
 }
-.main-display { 
+.choices-nav-box {
+
+}
+.choices-span {
+
+}
+
+.main-display {
+
 }
 .ties {
 
@@ -41,16 +97,16 @@ $contact-button: blue;
 .products-parent {
 
 }
-.products {
+.product {
 
 }
 .horizontal-pattern {
 
 }
-.highlights-parent {
+.highlight-parent {
 
 }
-.highlights {
+.highlight {
 
 }
 .footer {
@@ -63,5 +119,5 @@ $contact-button: blue;
 
 }
 .contact-button {
-	
+
 }
