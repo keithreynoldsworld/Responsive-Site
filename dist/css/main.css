@@ -47,6 +47,7 @@
     margin-left: auto;
     margin-right: auto;
     background-size: 1201px, 263px; } }
+/* Styles that are consistent throughout the site */
 .body {
   background: white;
   text-align: center; }
@@ -153,7 +154,6 @@
   color: black; }
 
 .footer {
-  display: block;
   float: none;
   color: gray;
   background: black;

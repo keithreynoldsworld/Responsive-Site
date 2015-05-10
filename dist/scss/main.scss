@@ -1,11 +1,11 @@
 /* Variables */
+
 $body-background: white;
 $header-link-1: gray;
 $header-link-2and4: gray;
 $header-link-3: black;
 $header-background: white;
 $plan-background-1: green;
-$slogan-background: url(images/background.jpg);
 $slogan-text: white;
 $plan-background-2: blue;
 $plan-background-3: black;
@@ -32,9 +32,6 @@ $footer-links: white;
 		background: $body-background;
 		
 	}
-	.company-info-background{
-		
-	}
     .slogan {
         font-size: 25px;
         padding-top: 50px;
@@ -46,7 +43,6 @@ $footer-links: white;
 @media (min-width: 479px) {
 	.slogan {
 		font-size: 35px;
-	
 	}
 }
 
@@ -56,26 +52,19 @@ $footer-links: white;
 	}
 	.plan, .company-info-background {
 		display: inline-block;
-		
-		
-		width: 29%;
-		
+		width: 29%;		
 	}
 	.plan{
-		
 		margin-top: 30px;
 	}
 	.clear {
 		float:clear;
-
 	}
 	.company-info-background{
 		height: 200px;
 		width: 45%;
 		float:left;
-		
 	}
-
 	.slogan {
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -84,36 +73,29 @@ $footer-links: white;
 	.footer{
 		min-width: 767px;
 	}
-
 }
 
 @media (min-width: 979px) {
 	.plan, .company-info-background {
-		
 		max-width: 400px;
 	}
-	
-	
 }
 
 @media (min-width: 1200px){
-	.body{ width: 1201px;
+	.body{ 
+		width: 1201px;
 		margin-left: auto;
 		margin-right: auto;
 		background-size: 1201px, 263px;
 	}
-
 }
+
+
+/* Styles that are consistent throughout the site */
 
 .body {
 	background: $body-background;
-	text-align: center;
-	
-
-.max {
-	
-}	
-	
+	text-align: center;	
 }
 .header-main-box {
 	
@@ -124,36 +106,30 @@ $footer-links: white;
 	background: $header-background;
 	float:left;
 	padding-right: 12px;
-
 }
 .header-link-1 {
 	color: $header-link-1;
 }
 .header-link-2and4 { 
-	color: $header-link-2and4;}
+	color: $header-link-2and4;
+}
 .header-link-3 {
 	color: $header-link-3;
 }
-.slogan {
-		
+.slogan {		
 	color: $slogan-text;
 	margin-bottom: 10px;
 }
-.plans {
-
-}
-.plan{
+.plan {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin: (15px, 5px, 20px, 5px);
 	border: (10px, 0px, 15px, 0px)
 }
-.plan-parent{
+.plan-parent {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
 .plan-header-1 {
 	background: $plan-background-1;
 	padding: 10px;
@@ -184,8 +160,6 @@ $footer-links: white;
 	background: $plan-perks-background;
 	color: $plan-perks-text;
 	padding: 8px 25px 8px 25px;
-
-
 }
 .button-parent{
 	background: $plan-button-parent-background;
@@ -224,16 +198,14 @@ $footer-links: white;
 }
 .company-info-verbage{
 	color: $company-info-verbage;
-
 }
 .footer{
-	display: block;
-	float:none;
-	color: $footer-text;
-	background: $footer-background;
 	a {
 		color:$footer-links;
 	}
+	float:none;
+	color: $footer-text;
+	background: $footer-background;
 	padding: 10px;
 }
 
